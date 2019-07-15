@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="my_text">Welcome to ALC 4.0</string>
+    <string name="button1">About ALC</string>
+    <string name="button2">My Profile</string>
+    <string name="desc">my_photo</string>
+    <string name="my_name">Name: Leo Obi Ntui Assam</string>
+    <string name="my_track">Track: Android</string>
+    <string name="my_country">Country: Cameroon</string>
+    <string name="my_email">Email: leotrally@gmail.com</string>
+    <string name="my_phone_number">Number: +237678667178</string>
+    <string name="my_slack_user_name">Slack UsrName: Leo Assam</string>
+</resources>
