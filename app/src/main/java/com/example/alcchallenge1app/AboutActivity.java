@@ -6,15 +6,16 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 public class AboutActivity extends AppCompatActivity {
-    private WebView myWebView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-        myWebView = findViewById(R.id.webview);
-        WebSettings webSettings = myWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-        myWebView.loadUrl("https://andela.com/alc/");
         setContentView(R.layout.activity_about_alc);
         super.onCreate(savedInstanceState);
+
+        WebView webView = findViewById(R.id.webview);
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+
+        webView.loadUrl("https://andela.com/alc/");
     }
 }
